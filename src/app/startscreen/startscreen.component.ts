@@ -1,10 +1,11 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-startscreen',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './startscreen.component.html',
   styleUrl: './startscreen.component.scss'
 })
