@@ -2,16 +2,28 @@
     width: 300px;
     display: flex;
     align-items: center;
-    background-color: #ffffd4;
+    background-color: #e6e6e6d7;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+
     >span {
         font-size: 32px;
         margin-left: 16px;
     }
+
     >img {
-        height: 100px;
+        height: 50px;
         object-fit: cover;
         border-radius: 100%;
     }
+}
+
+
+.player-active {
+    background-color: #ffffd4 !important;
+
+    >img {
+        height: 60px;
+    }
+
 }
